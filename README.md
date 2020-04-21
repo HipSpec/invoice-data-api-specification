@@ -8,8 +8,8 @@ Would be authenticated by oAuth2/ API token.
 
 ## Primary Endpoints:
 * /api/invoices # Index of all historic invoices
-* /api/invoices/2020/{month}.json
-* /api/invoices/2020/upcoming.json # Pending/current period invoice
+* /api/invoices/:year/{month}.json
+* /api/invoices/:year/upcoming.json # Pending/current period invoice
 
 
 ## Seat based pricing: 
