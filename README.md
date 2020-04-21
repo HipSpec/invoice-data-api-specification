@@ -8,9 +8,9 @@ Would be authenticated by oAuth2/ API token.
 
 ## Primary Endpoints:
 * /api/invoices # Index of all historic invoices
-* /api/invoices/:year/{month}.json
-* /api/invoices/:year/upcoming.json # Pending/current period invoice
-
+* /api/invoices/upcoming.json # Pending/current period invoice
+* /api/invoices/:id.json
+* /api/invoices/:year/:month.json
 
 ## Seat based pricing: 
 - Would describe number of seats, plan, sub totals, taxes, etc.
